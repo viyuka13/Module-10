@@ -22,7 +22,18 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
+q = []
+n = int(input())
+for _ in range(n):
+    val = input()
+    q.append(val)
 
+q.pop(0)
+q.pop(0)
+q.sort(reverse=True)
+print(q)
 ### Output:
+![image](https://github.com/user-attachments/assets/89739856-f975-4cc2-8a44-2b874472e909)
 
 ## Result:
+This program builds a list, removes the first two entries, then sorts and prints the rest in descending order.
