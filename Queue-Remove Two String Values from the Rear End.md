@@ -21,8 +21,17 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
-
+      q = []
+      n = int(input())
+      for _ in range(n):
+          s = input()
+          q.append(s)
+      
+      q.pop()
+      q.pop()
+      print(q)
 ### Output:
+![image](https://github.com/user-attachments/assets/5b7eaa26-9806-4520-9067-c3f2fee7b782)
 
 ## Result:
+The program successfully reads a list of strings from the user, removes the last two elements using the pop() method, and then displays the updated list with the remaining elements in their original order.
